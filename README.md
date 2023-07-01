@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Tasty Plate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Tasty Plate! This website allows you to search for recipes based on the ingredients you have. No more wasting time searching for recipes that require a trip to the grocery store. With Tasty Plate, you can make delicious meals using what you already have in your pantry.
 
-## Available Scripts
+## Website Link
 
-In the project directory, you can run:
+[https://tastyplate.netlify.app/](https://tastyplate.netlify.app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Ingredient-based Recipe Search**: Simply enter the ingredients you have, and Tasty Plate will provide you with a list of recipes that you can prepare using those ingredients.
+- **Detailed Recipe Information**: Each recipe includes detailed instructions, cooking time, serving size, and a list of ingredients.
+- **Mobile-friendly Design**: Access Tasty Plate on any device, including smartphones and tablets, for a seamless recipe search experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+![Tasty Plate Homepage]([https://i.gyazo.com/6f0466c930ff889144d4095257320526.png])
+*Homepage: Easily search for recipes based on your available ingredients.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Tasty Plate Recipe Details]([https://i.gyazo.com/6f0466c930ff889144d4095257320526.png])
+*Recipe Details: Get comprehensive information about each recipe, including instructions and ingredients.*
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open the Tasty Plate website in your preferred browser by visiting [https://tastyplate.netlify.app/](https://tastyplate.netlify.app/).
+2. On the homepage, enter the ingredients you have in the search bar.
+3. Click the "Search" button to retrieve a list of recipes based on your ingredients.
+5. Click on a recipe to view detailed information, including instructions, cooking time, serving size, and a list of ingredients.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JSX
+- CSS
+- JavaScript
+- React.js
+- React Router
+- Spoonacular API
+- Netlify (for hosting)
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We welcome contributions from the community! If you have a recipe you'd like to share or want to contribute to the development of Tasty Plate, please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork the repository and clone it to your local machine.
+2. Create a new branch for your contribution: `git checkout -b my-contribution`.
+3. Make your changes and test them thoroughly.
+4. Commit your changes: `git commit -m 'Add my contribution'`.
+5. Push to the branch: `git push origin my-contribution`.
+6. Open a pull request in the main repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please ensure your contributions adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
