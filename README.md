@@ -14,7 +14,7 @@ Welcome to Tasty Plate! This website allows you to search for recipes based on t
 
 ## Screenshots
 
-![Tasty Plate Homepage](https://i.gyazo.com/6f0466c930ff889144d4095257320526.png)
+![Tasty Plate Homepage](https://ryantjohnson.dev/images/tastyplate.jpg)
 *Homepage: Easily search for recipes based on your available ingredients.*
 
 ![Tasty Plate Recipe Details](https://i.gyazo.com/6f0466c930ff889144d4095257320526.png)
