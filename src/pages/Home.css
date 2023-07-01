@@ -1,0 +1,17 @@
+.home-wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.search-body {
+  padding-bottom: 250px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

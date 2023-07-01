@@ -1,0 +1,55 @@
+.recipe {
+  text-align: center;
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.recipe-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 60px;
+}
+
+.recipe-missing-ingredients {
+  background-color: rgb(240, 240, 240);
+  user-select: none;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.missing-ingredients-panel {
+  background-color: rgb(240, 240, 240);
+  z-index: 5;
+  position: absolute;
+  bottom: 2.5rem;
+  width: 100%;
+  padding: 0;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  max-height: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.missing-ingredients-panel.opened {
+  padding: 1rem;
+  max-height: 500px;
+  opacity: 100%;
+}
+
+.missing-ingredients-title {
+  font-weight: bold;
+}
+
+.recipe-image {
+  height: 350px;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}

@@ -1,0 +1,111 @@
+.recipe-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 250px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.recipes-list-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 34px;
+  margin-bottom: 2rem;
+}
+
+.search-box {
+  margin: 0 auto 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: peachpuff;
+  padding: 10vh 0;
+  flex: 1 1 auto;
+  width: 100%;
+  background-color: peachpuff;
+}
+
+.search-label {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ff7e00;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
+    3px 3px 0 #fff;
+}
+
+.how-it-works {
+  margin-top: 1rem;
+  color: #e27100;
+  position: relative;
+}
+
+.info-popup {
+  opacity: 0;
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 30px;
+  max-width: 20vw;
+  min-width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 150%;
+  z-index: 5;
+  user-select: none;
+  pointer-events: none;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+  transform: translateX(-50%);
+  transition: opacity 0.1s ease-in;
+}
+
+.how-it-works:hover {
+  .info-popup {
+    opacity: 100%;
+  }
+}
+
+.search-input {
+  font-size: 30px;
+  border: 1px solid lightgray;
+  width: 30vw;
+  min-width: 350px;
+  border-radius: 100px;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+}
+
+.search-form-button {
+  background-color: #ff7e00;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  align-items: center;
+  border-radius: 100px;
+  position: absolute;
+  right: 0.5rem;
+  transition: 0.1s ease-in;
+}
+
+.search-form-button:hover {
+  background-color: #e27100;
+}
+
+.search-form-button .fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}

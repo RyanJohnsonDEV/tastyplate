@@ -1,0 +1,14 @@
+.recipe-details-wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+.recipe-details {
+  padding-bottom: 250px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
